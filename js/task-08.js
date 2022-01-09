@@ -21,7 +21,7 @@ function submitForm(event){
 
     
     if (mail === "" || password === "") {
-      return console.log( "Please fill in all the fields!")
+      alert( "Please fill in all the fields!")
     }
     
   if(mail && password) {
